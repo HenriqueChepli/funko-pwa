@@ -11,10 +11,10 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
-        name: 'Fake Store',
-        short_name: 'FakeStore',
-        description: 'Fake Store: Fantástica loja de produtos',
-        theme_color: '#ffffff',
+        name: 'Funko Store',
+        short_name: 'FunkoStore',
+        description: 'Funko Store é um aplicativo de loja de colecionáveis Funko Pop.',
+        theme_color: '#0000FF',
         icons: [
           {
             src: 'pwa-192x192.png',
@@ -29,7 +29,7 @@ export default defineConfig({
             purpose: 'maskable',
           },
         ],
-        id: 'com.fake-store.app',
+        id: 'https://funko-pwa.vercel.app/',
         orientation: 'any',
         background_color: '#ffffff',
         start_url: '.',
