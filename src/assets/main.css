@@ -240,20 +240,17 @@ footer img {
   cursor: pointer;
 }
 
-.carousel li {
-  padding: 10px;
+.slick-carousel {
+  margin: 0 auto;
+  max-width: 100%;
 }
 
-.carousel img {
+.slide img {
   width: 100%;
-  height: auto;
   border-radius: 10px;
-  transition: transform 0.3s ease;
 }
 
-.carousel img:hover {
-  transform: scale(1.05);
-}
+
 
 .disabledButton{
   background-color: #cccccc;
